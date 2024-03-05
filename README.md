@@ -1,16 +1,11 @@
-# vCard - Personal portfoli
+# Personal portfolio
 
 Fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
 
-## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+## Installing Personal portfolio
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-## Installing vCard
-
-To install **personal-portfolio**, follow these steps:
+To install the portfolio follow these steps:
 
 Linux and macOS:
 
@@ -26,7 +21,7 @@ git clone
 
 ## Contact
 
-If you want to contact me you can reach me at 
+If you want to contact me you can reach me at https://www.facebook.com/hieuhv0601.jsclub/
 
 ## License
 
