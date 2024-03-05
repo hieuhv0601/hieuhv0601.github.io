@@ -343,10 +343,10 @@ const infoContentBox = document.querySelector(".info-content>.title");
 
 const navbarTitle = document.querySelectorAll(".navbar-link");
 const serviceTextElement = document.querySelectorAll(
-  ".skill p,.service-item-text,.about-text,.title-wrapper>h3,.timeline-item>h4,.timeline-text,.info-content>h1,.contact-info>a,.contact-info>p,.contact-info>address,.language,.input-wrapper>input,.form-input"
+  ".skill p,.about-text,.title-wrapper>h3,.timeline-item>h4,.timeline-text,.info-content>h1,.contact-info>a,.contact-info>p,.contact-info>address,.language,.input-wrapper>input,.form-input"
 ); // Selects the first <a> element in the document
 const skillTitle = document.querySelectorAll(
-  ".title-wrapper>h5,.service-item-title,.service-title,.article-title,.form-title,.skills-title,.contact-title,.filter-item>button,.project-title"
+  ".title-wrapper>h5,.service-title,.article-title,.form-title,.skills-title,.contact-title,.filter-item>button,.project-title"
 );
 
 //logo
@@ -433,9 +433,8 @@ themeToggle.addEventListener("click", function () {
   // item  light-theme toggle
 
   if (body.classList.contains("light-theme")) {
-    styleServiceItem.innerHTML =
-      ".service-item::before{background: var(--cream);}";
-    styleIconBoxItem.innerHTML = ".icon-box::before{background: var(--cream);}";
+    styleServiceItem.innerHTML = ".service-item::before{background: #6b6154;}";
+    styleIconBoxItem.innerHTML = ".icon-box::before{background: #6b6154;}";
     styleContentCardItem.innerHTML =
       ".content-card::before{background: beige;}";
     styleInfoMoreBtn.innerHTML =

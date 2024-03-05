@@ -202,7 +202,7 @@ article {
 }
 .icon-box.active {
   background: var(--bg-gradient-yellow-1);
-  color: orange;
+  color: rgb(243, 240, 235);
 }
 .icon-box::before {
   content: "";
